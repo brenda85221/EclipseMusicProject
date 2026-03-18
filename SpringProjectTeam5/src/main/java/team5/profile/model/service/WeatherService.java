@@ -5,11 +5,13 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import org.json.JSONObject;
+import org.springframework.beans.factory.annotation.Value;
 
 public class WeatherService {
+	@Value("${weather.api.key}")
+	private String apiKey;
     public String getWeatherDataByCounty(String county) throws Exception {
-    	@Value("${weather.api.key}")
-    	private String apiKey;
+    	
         String apiUrl = "https://opendata.cwa.gov.tw/api/v1/rest/datastore/O-A0003-001?Authorization="
                 + apiKey + "&locationName=" + county;
         URL url = new URL(apiUrl);
