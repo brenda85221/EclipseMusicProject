@@ -39,12 +39,14 @@ https://chenyu-musicweb.netlify.app
 
 <img width="100" height="100" alt="music網頁前台" src="https://github.com/user-attachments/assets/318c1450-759b-49d7-b37e-b40579e7048a" />
 
-- This demo is currently optimized for desktop browsers.  
-  Responsive design (RWD) is not fully implemented yet.
-
-- Due to cold start behavior on Render, the backend may take a moment to initialize.  
-  If data does not appear on first load, refreshing the page usually resolves the issue.
-
+- Optimized for **desktop browsers** (RWD not fully implemented)
+- Showcases **shopping module only**
+- Backend may take time to initialize due to cold start (Render)
+  
+- Test Account
+  - account: testaccount 
+  - Password: 123456
+    
 # My Contribution
 - Developed both frontend and backend features for the **shopping module**
 - Modified Spring Boot backend configuration to support cloud deployment  
