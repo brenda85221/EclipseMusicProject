@@ -45,7 +45,7 @@ https://chenyu-musicweb.netlify.app
   
 - Test Account
   - account: testaccount 
-  - Password: 123456
+  - Password: 123qwe
     
 # My Contribution
 - Developed both frontend and backend features for the **shopping module**
